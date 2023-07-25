@@ -1,4 +1,5 @@
-# Copyright 2017 PyFLOWGO development team (Magdalena Oryaelle Chevrel and Jeremie Labroquere)
+# Copyright 2017 PyFLOWGO development team (Magdalena Oryaelle Chevrel and Jeremie Labroquere
+#
 #
 # This file is part of the PyFLOWGO library.
 #
