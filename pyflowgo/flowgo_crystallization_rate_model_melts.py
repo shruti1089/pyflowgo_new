@@ -24,7 +24,8 @@ import pyflowgo.base.flowgo_base_crystallization_rate_model
 
 class FlowGoCrystallizationRateModelMelts(pyflowgo.base.flowgo_base_crystallization_rate_model.
                                           FlowGoBaseCrystallizationRateModel):
-    """ This method "MELTS" allows to get the crystal fraction at a given temperature
+    """
+    This method "MELTS" allows to get the crystal fraction at a given temperature
      in order to calculate the crystallization rate according to a look-up table built
      from MELTS as suggsted in Harris and Rowland 2001 and in Riker et al. 2009
 
@@ -92,6 +93,7 @@ class FlowGoCrystallizationRateModelMelts(pyflowgo.base.flowgo_base_crystallizat
         phi_at_temp_plus = self.get_crystal_fraction(core_temperature + 1.)
         phi_at_temp_minus = self.get_crystal_fraction(core_temperature - 1.)
         crystallization_rate = -(phi_at_temp_plus - phi_at_temp_minus) / 2.
+
         return crystallization_rate
 
     def get_solid_temperature(self):
