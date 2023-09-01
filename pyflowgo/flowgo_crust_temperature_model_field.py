@@ -26,7 +26,8 @@ import pyflowgo.base.flowgo_base_crust_temperature_model
 class FlowGoCrustTemperatureModelField(pyflowgo.base.flowgo_base_crust_temperature_model.
                                             FlowGoBaseCrustTemperatureModel):
 
-    """ This method "field" considers the temperature of the crust as collected by FLIR in the field:
+    """
+    This method "field" considers the temperature of the crust as collected by FLIR in the field:
     It reads a look-up table and do a linearisation between the collected pointd along the length from the vent to the
     front
 
