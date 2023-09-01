@@ -23,6 +23,7 @@ import pyflowgo.base.flowgo_base_crystallization_rate_model
 class FlowGoCrystallizationRateModelBasic(pyflowgo.base.flowgo_base_crystallization_rate_model.
                                           FlowGoBaseCrystallizationRateModel):
     """
+        Added by original creators:
         This model called "basic" calculates the amount of crystal (in fraction) as a function of the amount of cooling
         as suggested by Harris and Rowland (2001).
         It take into account the amount of crystallization during the eruption that occurred between the eruption
