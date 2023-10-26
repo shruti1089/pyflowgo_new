@@ -23,16 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c051ad8a-e4ae-484c-bc92-ce34b61f6350" name="Default" comment="add update MU74">
+      <change afterPath="$PROJECT_DIR$/resource/test1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pyflowgo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pyflowgo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_plot_flowgo_results.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_plot_flowgo_results.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/example_slope_profile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resource/example_slope_profile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/template.json" beforeDir="false" afterPath="$PROJECT_DIR$/resource/eanat_lev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_flowgo/crustal_conditions.png" beforeDir="false" afterPath="$PROJECT_DIR$/results_flowgo/crustal_conditions.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_flowgo/heat_fluxes.png" beforeDir="false" afterPath="$PROJECT_DIR$/results_flowgo/heat_fluxes.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_flowgo/lava_properties.png" beforeDir="false" afterPath="$PROJECT_DIR$/results_flowgo/lava_properties.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_flowgo/slope.png" beforeDir="false" afterPath="$PROJECT_DIR$/results_flowgo/slope.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_plot_results_field_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_plot_results_field_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyflowgo/flowgo_melt_viscosity_model_vft.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyflowgo/flowgo_melt_viscosity_model_vft.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/eanat_lev.json" beforeDir="false" afterPath="$PROJECT_DIR$/resource/eanat_lev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results_flowgo/crustal_conditions_field.png" beforeDir="false" afterPath="$PROJECT_DIR$/results_flowgo/crustal_conditions_field.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results_flowgo/heat_fluxes_field.png" beforeDir="false" afterPath="$PROJECT_DIR$/results_flowgo/heat_fluxes_field.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results_flowgo/lava_properties_field.png" beforeDir="false" afterPath="$PROJECT_DIR$/results_flowgo/lava_properties_field.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results_flowgo/slope_field.png" beforeDir="false" afterPath="$PROJECT_DIR$/results_flowgo/slope_field.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +78,13 @@
       </set>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/main_flowgo.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/plot_flowgo_results.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/resource/eanat_lev.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/resource/example_slope_profile.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/results_flowgo/results_main_flowgo_eanat_lev_3m3s.csv" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -91,7 +98,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/shrut/pyflowgo",
+    "last_opened_file_path": "C:/Users/shrut/pyflowgo/resource",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -111,7 +118,7 @@
       <recent name="$PROJECT_DIR$/MaunaUlu74/results" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main_plot_flowgo_results">
+  <component name="RunManager" selected="Python.main_plot_results_field_data">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,27 +188,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyflowgo/base/flowgo_base_crust_temperature_model.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="flowgo_base_relative_viscosity_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pyflowgo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyflowgo/base" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyflowgo/base/flowgo_base_relative_viscosity_model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -315,23 +301,44 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main_plot_results_field_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyflowgo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_plot_results_field_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.flowgo_base_crust_temperature_model" />
       <item itemvalue="Python.main_flowgo" />
       <item itemvalue="Python.main_plot_flowgo_results" />
+      <item itemvalue="Python.main_plot_results_field_data" />
       <item itemvalue="Python.__init__" />
-      <item itemvalue="Python.flowgo_base_relative_viscosity_model" />
       <item itemvalue="Python.flowgo_base_vesicle_fraction_model" />
       <item itemvalue="Python.flowgo_base_yield_strength_model" />
       <item itemvalue="Python.flowgo_crust_temperature_model_bimodal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main_plot_results_field_data" />
         <item itemvalue="Python.flowgo_crust_temperature_model_bimodal" />
         <item itemvalue="Python.__init__" />
         <item itemvalue="Python.flowgo_base_yield_strength_model" />
         <item itemvalue="Python.flowgo_base_vesicle_fraction_model" />
-        <item itemvalue="Python.flowgo_base_relative_viscosity_model" />
       </list>
     </recent_temporary>
   </component>
@@ -690,8 +697,19 @@
       <option name="project" value="LOCAL" />
       <updated>1680080859341</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <option name="localTasksCounter" value="93" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

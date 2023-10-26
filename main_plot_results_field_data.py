@@ -32,8 +32,10 @@ if __name__ == "__main__":
 
     path_to_folder = os.path.abspath('')
 
-    filename_array = ["./results_flowgo/results_flowgo_template_3m3s.csv",
-                      "./results_flowgo/results_flowgo_template2_10m3s.csv"]
+    #filename_array = ["./results_flowgo/results_flowgo_template_3m3s.csv",
+    #                  "./results_flowgo/results_flowgo_template2_10m3s.csv"]
+
+    filename_array = ["results_flowgo/results_main_flowgo_eanat_lev_3m3s.csv"]
 
     # Here define the title of the graphs
     title = "lava name template"
@@ -167,9 +169,9 @@ if __name__ == "__main__":
                 effective_cover_fraction_array.append(float(row['effective_cover_fraction']))
                 crystallization_rate_array.append(float(row['dphi_dtemp']))
                 crystallization_down_flow_array.append(float(row['dphi_dx']))
-                characteristic_surface_temperature_array.append(float(row['characteristic_surface_temperature']))
+                # characteristic_surface_temperature_array.append(float(row['characteristic_surface_temperature']))
                 effective_radiation_temperature_array.append(float(row['effective_radiation_temperature']))
-                flowgofluxforcedconvectionheat_array.append(float(row['flowgofluxforcedconvectionheat']))
+                # flowgofluxforcedconvectionheat_array.append(float(row['flowgofluxforcedconvectionheat']))
                 flowgofluxconductionheat_array.append(float(row['flowgofluxconductionheat']))
                 flowgofluxradiationheat_array.append(float(row['flowgofluxradiationheat']))
                 #flowgofluxheatlossrain_array.append(float(row['flowgofluxheatlossrain']))
@@ -268,6 +270,7 @@ if __name__ == "__main__":
         # plot6_fig1.set_xlim(xmax=500)
 
         # figure 2
+        '''
         plot1_fig2.plot(distance_array, flowgofluxforcedconvectionheat_array, '-', label=label)
         plot1_fig2.set_xlabel('Distance (m)')
         plot1_fig2.set_ylabel('Qconv (W/m)')
@@ -276,6 +279,8 @@ if __name__ == "__main__":
         plot1_fig2.set_ylim(ymin=0, ymax=100000000)
         #plot1_fig2.set_xlim(xmax=1000)
         plot1_fig2.grid(True)
+        '''
+
 
         plot2_fig2.plot(distance_array, flowgofluxconductionheat_array, '-', label=label)
         plot2_fig2.set_xlabel('Distance (m)')
@@ -324,9 +329,10 @@ if __name__ == "__main__":
         plot3_fig3.set_ylabel('T eff (°C)')
         # plot1_fig3.set_xlim(xmax=1000)
 
-        plot4_fig3.plot(distance_array, characteristic_surface_temperature_celcius, '-', label=label)
-        plot4_fig3.set_xlabel('Distance (m)')
-        plot4_fig3.set_ylabel('T conv(°C)')
+
+       # plot4_fig3.plot(distance_array, characteristic_surface_temperature_celcius, '-', label=label)
+        #plot4_fig3.set_xlabel('Distance (m)')
+        #plot4_fig3.set_ylabel('T conv(°C)')
         # plot1_fig3.set_xlim(xmax=1000)
 
 

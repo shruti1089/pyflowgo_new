@@ -22,7 +22,8 @@ import pyflowgo.base.flowgo_base_melt_viscosity_model
 
 
 class FlowGoMeltViscosityModelVFT(pyflowgo.base.flowgo_base_melt_viscosity_model.FlowGoBaseMeltViscosityModel):
-    """ This function calculates the viscosity of the melt according to Giordano et al. 2008:
+    """
+    This function calculates the viscosity of the melt according to Giordano et al. 2008:
 
     log viscosity(Pa.s) = A + B / (T(K) - C),
 
